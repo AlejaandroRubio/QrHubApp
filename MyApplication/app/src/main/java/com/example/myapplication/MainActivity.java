@@ -75,7 +75,7 @@ public class MainActivity extends AppCompatActivity {
 
             //Instagram
             case 1:
-                QrShow.setImageResource(R.drawable.instagramqr);
+                QrShow.setImageResource(0);
                 SMlogo.setImageResource(R.drawable.logoinstagram);
                 background.setImageResource(0);
                 break;
@@ -115,7 +115,7 @@ public class MainActivity extends AppCompatActivity {
             case 7:
                 QrShow.setImageResource(0);
                 SMlogo.setImageResource(R.drawable.squidwardtentacles);
-                background.setImageResource(R.drawable.ic_launcher_background);
+                background.setImageResource(R.drawable.fondodebikini);
                 break;
         }
 
